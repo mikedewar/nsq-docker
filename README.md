@@ -9,4 +9,4 @@ docker run -e BROADCAST_ADDRESS=192.168.59.103 -e NSQLOOKUPD_ADDRESS=192.168.59.
 docker run -e NSQLOOKUPD_ADDRESS=192.168.59.103 -p 4171:4171 mikedewar/nsqadmin
 ```
 
-to quickly get an NSQ setup working using docker. 
+to quickly get an NSQ setup working using docker. These dockerfiles are intended to be used with coreOS/fleet and so eschew linking in favour of environment vairables.
